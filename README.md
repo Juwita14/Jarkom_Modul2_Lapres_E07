@@ -12,7 +12,7 @@ Siti Munawaroh  		 05111840007004</br>
    
    b.)Setting /etc/bind/named.conf.local
 
-![Screenshot (491)](https://user-images.githubusercontent.com/58022238/98759829-7701ae00-2404-11eb-9d40-4e6aff875fe8.png)
+   ![Screenshot (491)](https://user-images.githubusercontent.com/58022238/98759829-7701ae00-2404-11eb-9d40-4e6aff875fe8.png)
 
   c.) Mkdir etc/bind/jarkom
   
@@ -31,7 +31,7 @@ Siti Munawaroh  		 05111840007004</br>
  
    a.) Nano /etc/bind/jarkom/semerue07.pw
 
-![Screenshot (496)](https://user-images.githubusercontent.com/58022238/98761287-b251ac00-2407-11eb-8493-430b5ecb3fc8.png)</br>
+   ![Screenshot (496)](https://user-images.githubusercontent.com/58022238/98761287-b251ac00-2407-11eb-8493-430b5ecb3fc8.png)</br>
    b.)Service bind9 restart</br>
    c.)Cek ping lewat client</br>
    ![2c](https://user-images.githubusercontent.com/56763570/98809428-60426380-23d2-11eb-895d-000270af912f.png)</br>
@@ -84,7 +84,12 @@ Siti Munawaroh  		 05111840007004</br>
    f.)Coba akses melalui browser</br>
    ![8f](https://user-images.githubusercontent.com/56763570/98812665-bcf44d00-23d7-11eb-8511-19719849a741.png)</br>
    
-9. 
+9. diaktifkan mod rewrite agar urlnya menjadi http://semeruyyy.pw/home.]</br>
+   ![9 1](https://user-images.githubusercontent.com/56763570/98812873-27a58880-23d8-11eb-80ea-5a3b4c22339f.png)</br>
+   ![9 2](https://user-images.githubusercontent.com/56763570/98812875-28d6b580-23d8-11eb-8c89-7e2abd666a84.png)</br>
+   ![9 3](https://user-images.githubusercontent.com/56763570/98812881-2a07e280-23d8-11eb-8996-beb940776181.png)</br>
+   .htaccess di var www semeru</br>
+
 
 
 
