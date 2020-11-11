@@ -115,7 +115,38 @@ Siti Munawaroh  		 05111840007004</br>
    ```
    ![12](https://user-images.githubusercontent.com/56763570/98813855-b7980200-23d9-11eb-862c-399b79f6caad.png)</br>
 
+13. Untuk mengakses file assets javascript awalnya harus menggunakan url http://penanjakan.semeruyyy.pw/public/javascripts. Karena terlalu panjang maka dibuatkan konfigurasi virtual host agar ketika mengakses file assets menjadi http://penanjakan.semeruyyy.pw/js. </br>
+   ![13](https://user-images.githubusercontent.com/56763570/98814271-4b69ce00-23da-11eb-9b85-77fa0a3e183f.png)</br>
+   
+14. sedangkan web http://naik.gunung.semeruyyy.pw sudah bisa diakses hanya dengan menggunakan port 8888. DocumentRoot web berada pada /var/www/naik.gunung.semeruyyy.pw. Dikarenakan web http://naik.gunung.semeruyyy.pw bersifat private</br>
+   a.)Wget pada /var/www/naik.gunung.semerue07.pw, unzip</br>
+   b.)Config pada /etc/apache2/sites-available/naik.gunung.semerue07.pw.conf</br>
+   ![14b](https://user-images.githubusercontent.com/56763570/98814406-794f1280-23da-11eb-8c87-892472149994.png)</br>
+   
+15. Bibah meminta kamu membuat web http://naik.gunung.semeruyyy.pw agar diberi autentikasi password dengan username “semeru” dan password “kuynaikgunung” supaya aman dan tidak sembarang orang bisa mengaksesnya. </br>
+
+   a.)htpasswd -c /etc/apache2/.htpasswd seru isi pass kuynaikgunung</br>
+   b.)<Directory "/var/www/html"></br>
+         AuthType Basic</br>
+         AuthName "Restricted Content"</br>
+         AuthUserFile /etc/apache2/.htpasswd</br>
+         Require valid-user</br>
+      </Directory></br>
+      ![15b 1](https://user-images.githubusercontent.com/56763570/98814609-bfa47180-23da-11eb-9da1-4cb40a597a36.png)</br>
+      ![15c 2](https://user-images.githubusercontent.com/56763570/98814612-c16e3500-23da-11eb-94cf-6f5fbb5d195d.png)</br>
   
+16. Karena dirasa kurang profesional, maka setiap Bibah mengunjungi IP PROBOLINGGO akan dialihkan secara otomatis ke http://semeruyyy.pw. 
+    Edit 000-default.conf dengah memberi redirect permanent / http://semerue07.pw/</br>
+    ![16a](https://user-images.githubusercontent.com/56763570/98814722-ef537980-23da-11eb-9d3a-d3f114902327.png)</br>
+   
+17. Karena pengunjung pada /var/www/penanjakan.semeruyyy.pw/public/images sangat banyak maka semua request gambar yang memiliki substring “semeru” akan diarahkan menuju semeru.jpg.</br>
+   ![17 1](https://user-images.githubusercontent.com/56763570/98814866-2aee4380-23db-11eb-95f8-3b4a66f38d8e.png)</br>
+   ![17 2](https://user-images.githubusercontent.com/56763570/98814873-2d509d80-23db-11eb-94ad-cd229dd9e937.png)</br>
+
+
+
+
+
 
 
 
