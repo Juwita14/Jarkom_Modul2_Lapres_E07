@@ -19,7 +19,7 @@ Siti Munawaroh  		 05111840007004</br>
   d.) cp /etc/bind/db.local /etc/bind/jarkom/semerue07.pw
   
   e.) Edit file semerue07.pw
-  
+  ![1 e](https://user-images.githubusercontent.com/56763570/98809113-edd18380-23d1-11eb-8af6-b85fd083a66c.png)</br>
   
   f.) Service bind9 restart
   g.) Setting pada client nano /etc/resolve.conf masukkan ip malang, coba ping
@@ -32,5 +32,8 @@ Siti Munawaroh  		 05111840007004</br>
    a.) Nano /etc/bind/jarkom/semerue07.pw
 
 ![Screenshot (496)](https://user-images.githubusercontent.com/58022238/98761287-b251ac00-2407-11eb-8493-430b5ecb3fc8.png)
+   b.)Service bind9 restart
+   c.)Cek ping lewat client
+
 
   
