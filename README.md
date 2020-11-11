@@ -31,9 +31,9 @@ Siti Munawaroh  		 05111840007004</br>
  
    a.) Nano /etc/bind/jarkom/semerue07.pw
 
-![Screenshot (496)](https://user-images.githubusercontent.com/58022238/98761287-b251ac00-2407-11eb-8493-430b5ecb3fc8.png)
-   b.)Service bind9 restart
-   c.)Cek ping lewat client
+![Screenshot (496)](https://user-images.githubusercontent.com/58022238/98761287-b251ac00-2407-11eb-8493-430b5ecb3fc8.png)</br>
+   b.)Service bind9 restart</br>
+   c.)Cek ping lewat client</br>
 
 
   
