@@ -34,6 +34,15 @@ Siti Munawaroh  		 05111840007004</br>
 ![Screenshot (496)](https://user-images.githubusercontent.com/58022238/98761287-b251ac00-2407-11eb-8493-430b5ecb3fc8.png)</br>
    b.)Service bind9 restart</br>
    c.)Cek ping lewat client</br>
+   ![2c](https://user-images.githubusercontent.com/56763570/98809428-60426380-23d2-11eb-895d-000270af912f.png)</br>
+  3. Membuat sub domain www.penanjakan.semerue07.pw</br>
+   a.)Nano /etc/bind/jarkom/semerue07.pw </br>
+   ![3a](https://user-images.githubusercontent.com/56763570/98809718-e3fc5000-23d2-11eb-8a95-8add45a6fb94.png)</br>
+   b.)Service bind9 restart</br>
+   c.)Test ping penanjakan.semerue07.pw</br>
+   ![3c](https://user-images.githubusercontent.com/56763570/98809734-eced2180-23d2-11eb-85ad-fcd4de62b934.png)</br>
+
+
 
 
   
