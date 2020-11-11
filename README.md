@@ -20,3 +20,17 @@ Siti Munawaroh  		 05111840007004</br>
   
   e.) Edit file semerue07.pw
   
+  
+  f.) Service bind9 restart
+  g.) Setting pada client nano /etc/resolve.conf masukkan ip malang, coba ping
+  
+   ![Screenshot (495)](https://user-images.githubusercontent.com/58022238/98761276-ac5bcb00-2407-11eb-8338-889d5f03e8f0.png)
+
+  
+ 2. embuat alias www.semerue07.pw
+ 
+   a.) Nano /etc/bind/jarkom/semerue07.pw
+
+![Screenshot (496)](https://user-images.githubusercontent.com/58022238/98761287-b251ac00-2407-11eb-8493-430b5ecb3fc8.png)
+
+  
