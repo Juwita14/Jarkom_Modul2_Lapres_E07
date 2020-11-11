@@ -90,6 +90,33 @@ Siti Munawaroh  		 05111840007004</br>
    ![9 3](https://user-images.githubusercontent.com/56763570/98812881-2a07e280-23d8-11eb-8996-beb940776181.png)</br>
    .htaccess di var www semeru</br>
 
+10. Web http://penanjakan.semeruyyy.pw akan digunakan untuk menyimpan assets file yang memiliki DocumentRoot pada /var/www/penanjakan.semeruyyy.pw dan memiliki struktur folder sebagai berikut:</br>
+   /var/www/penanjakan.semeruyyy.pw </br>
+   /public/javascripts </br>
+   /public/css </br>
+   /public/images </br>
+   /errors</br>
+   a.)Donwload sesuai soal</br>
+   b.)Unzip di var/www/</br>
+      ![10 b](https://user-images.githubusercontent.com/56763570/98813503-1d37be80-23d9-11eb-8d23-b4ef01751004.png)</br>
+   c.)Cp 000-default conf lalu edit menjadi penanjakan.semerue07.pw.conf </br>
+      ![10 c 1](https://user-images.githubusercontent.com/56763570/98813531-29238080-23d9-11eb-8edc-d089af7133d2.png)</br>
+      ![10 c 2](https://user-images.githubusercontent.com/56763570/98813537-2aed4400-23d9-11eb-91e5-6cff06f6d418.png)</br>
+      
+11. Pada folder /public dibolehkan directory listing namun untuk folder yang berada di dalamnya tidak dibolehkan</br>
+    ![11 1](https://user-images.githubusercontent.com/56763570/98813705-7d2e6500-23d9-11eb-8158-4ead2407d0af.png)</br>
+   ![11 2](https://user-images.githubusercontent.com/56763570/98813709-7ef82880-23d9-11eb-9680-99343f090098.png)</br>
+   
+12. Untuk mengatasi HTTP Error code 404, disediakan file 404.html pada folder /errors untuk mengganti error default 404 dari Apache</br>
+   ```conf</br>
+      ErrorLog ${APACHE_LOG_DIR}/error.log</br>
+      ErrorDocument 404 /var/www/penanjakan.semerue07.pw/errors/404.html</br>
+      CustomLog ${APACHE_LOG_DIR}/access.log combined</br>
+   ```</br>
+   ![12](https://user-images.githubusercontent.com/56763570/98813855-b7980200-23d9-11eb-862c-399b79f6caad.png)</br>
+
+  
+
 
 
 
