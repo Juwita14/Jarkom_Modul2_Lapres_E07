@@ -65,6 +65,9 @@ Siti Munawaroh  		 05111840007004</br>
    ![6a 3](https://user-images.githubusercontent.com/56763570/98811551-e01dfd00-23d5-11eb-9a55-03d0c96b204c.png)</br>
    ![6a 4](https://user-images.githubusercontent.com/56763570/98811556-e2805700-23d5-11eb-9871-757b81bf17a8.png)</br>
    ![6a 5](https://user-images.githubusercontent.com/56763570/98811562-e44a1a80-23d5-11eb-819c-f6886e117093.png)</br>
+7. Buat subdomain dengan nama http://naik.gunung.semerue07.pw, domain ini diarahkan ke IP Server PROBOLINGGO.</br>
+   ![7 1](https://user-images.githubusercontent.com/56763570/98812198-e82a6c80-23d6-11eb-9962-feab3e170091.png)</br>
+   ![7 2](https://user-images.githubusercontent.com/56763570/98812183-df399b00-23d6-11eb-8fcd-7ea77d32a1ba.png)</br>
 
 
 
