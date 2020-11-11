@@ -108,11 +108,11 @@ Siti Munawaroh  		 05111840007004</br>
    ![11 2](https://user-images.githubusercontent.com/56763570/98813709-7ef82880-23d9-11eb-9680-99343f090098.png)</br>
    
 12. Untuk mengatasi HTTP Error code 404, disediakan file 404.html pada folder /errors untuk mengganti error default 404 dari Apache</br>
-   ```conf</br>
-      ErrorLog ${APACHE_LOG_DIR}/error.log</br>
-      ErrorDocument 404 /var/www/penanjakan.semerue07.pw/errors/404.html</br>
+   ```conf
+      ErrorLog ${APACHE_LOG_DIR}/error.log
+      ErrorDocument 404 /var/www/penanjakan.semerue07.pw/errors/404.html
       CustomLog ${APACHE_LOG_DIR}/access.log combined</br>
-   ```</br>
+   ```
    ![12](https://user-images.githubusercontent.com/56763570/98813855-b7980200-23d9-11eb-862c-399b79f6caad.png)</br>
 
   
